@@ -26,5 +26,83 @@
   <body>
     <!-- Skip to main content (Keyboard users) -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+     <header class="header" role="banner">
+      <div class="header-content">
+        <div class="brand">
+          <h1>Keshon D. Bowman</h1>
+          <p class="tagLine">Every Movement, Every Art.</p>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="main-nav" role="navigation" aria-label="Main Navigation">
+          <a href="#interest" aria-label="View personal interests">Interest</a>
+          <a href="#library" aria-label="Browse design library">Library</a>
+          <a href="#contact" aria-label="Contact Keshon"></a>
+          <button class="cta-btn" aria-label="Take a personality quiz">Take Quiz</button>
+        </nav>
+      </div>
+     </header>
+
+     <!-- Main Content -->
+     <main id="main-content" class="main-content" role="main">
+
+      <!-- Featured Blog Post ( Left Column ) -->
+      <article class="featured-post">
+        <span class="post-category">Forward Movement Blogs</span>
+        <h2 class="post-title">Week 1: Dvouted to the Mission</h2>
+        <p class="post-excerpt">
+          This week I dove deep into creating a cohesive design system.
+          Here's what I learned about consistency ....
+        </p>
+
+        <div class="post-tags" role="list" aria-label="Post categories">
+          <span class="tag" role="listitem">Design</span>
+          <span class="tag" role="listitem">Development</span>
+        </div>
+      </article>
+
+      <!-- Right Column - Card Grids -->
+       <aside class="sidebar-cards" aria-label="Quick Links and Hightlights">
+
+        <!-- Questionnaire Card -->
+         <div class="card questionnaire-card">
+            <h3>Personal Interest</h3>
+            <p class="card-subtitle">Get To Know Who Keshon Is!</p>
+            <div class="interest-tags" role="list" aria-label="Interest categories">
+              <span role="listitem">Music Playlist</span>
+              <span role="listitem">Book Journey</span>
+              <span role="listitem">Development</span>
+            </div>
+         </div>
+
+         <!-- Design Library Card -->
+          <div class="card library-card">
+            <h3>Design Library</h3>
+          </div>
+
+              <!-- Coding Library Card -->
+          <div class="card progress-card">
+            <h3>Design Library</h3>
+          </div>
+
+       </aside>
+
+     </main>
+
+     <!-- Footer -->
+      <footer class="site-footer" role="contentinfo">
+        <p>&copy; <span id="current-year">Keshon D. Bowman | Proverbs 16</span></p>
+      </footer>
+
+      <!-- Error Logging script -->
+       <script src="/scripts/script.js"></script>
+
+       <noscript>
+        <p style="padding: 1rem; background: #fff3cd; border: 1px solid #ffc107; margin: 1rem;"">
+          JavaScript is disabled in your browser. For the best experience on this site, please enable JavaScript.
+        </p>
+       </noscript>
   </body>
 </html>
