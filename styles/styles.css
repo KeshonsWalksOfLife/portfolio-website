@@ -97,6 +97,7 @@ body:not(.keyboard-nav) *:focus {
   padding: var(--spacing-lg) var(--spacing-md);
   /* border: 2px solid red; */
   background: var(--color-background);
+  margin-top: var(--spacing-md);
 }
 
 /* Header-content */
@@ -186,6 +187,8 @@ body:not(.keyboard-nav) *:focus {
   border-radius: var(--border-radius);
   border: 1px solid var(--color-border);
   height: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 
 .post-category {
@@ -214,6 +217,27 @@ body:not(.keyboard-nav) *:focus {
   margin-bottom: var(--spacing-md);
   line-height: 1, 7;
   font-size: 1rem;
+}
+
+/* Adding in the style for the read more link */
+.featured-post > .read-more-link {
+  /* border: 2px solid red; */
+  align-self: flex-end;
+  margin-top: auto;
+  margin-left: 30rem;
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: var(--font-weight);
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: var(--color-background);
+  border-radius: var(--border-radius);
+  transition: all 0.4s ease;
+}
+
+.read-more-link:hover {
+  background: var(--color-accent);
+  color: #0066cc;
+  transform: translateY(-4px);
 }
 
 .post-tags {
