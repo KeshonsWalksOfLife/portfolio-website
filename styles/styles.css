@@ -333,3 +333,58 @@ body:not(.keyboard-nav) *:focus {
 .site-footer p {
   margin: 0;
 }
+
+/* MEDIA BREAKPOINTS */
+
+@media (max-width: 832px) {
+  body {
+    width: 100%;
+  }
+
+  a.icon {
+    display: block;
+  }
+
+  /* Styling the navigation breakpoint to hamburger menu*/
+  .main-nav {
+    overflow: hidden;
+    background: #333;
+    position: relative;
+  }
+
+  /*  Hide the links inside the nav bar  */
+  #myNav #responsive-nav {
+    display: none;
+    border: 2px solid red;
+  }
+
+  /* Style navigation menu */
+  .main-nav a {
+    color: white;
+    padding: 24px;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  a.icon {
+    border: 2px solid red;
+    background: black;
+    display: block;
+    position: absolute;
+    right: 2.22em;
+    top: 5em;
+  }
+
+  /* Added a background color for hover pseudo */
+  a.icon:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  /* Style the active link*/
+  a.icon:active {
+    background: blue;
+    color: blue;
+  }
+}
