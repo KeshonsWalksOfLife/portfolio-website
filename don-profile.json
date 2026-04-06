@@ -1,0 +1,134 @@
+{
+  "root_user": {
+    "name": "Keshon D. Bowman",
+    "alias": "Don",
+    "email": "keshonbowman@gmail.com",
+    "first_seen": "2026-04-06",
+    "last_updated": "2026-04-06"
+  },
+  "motto": "Code Work = Numbers",
+  "mission": "Building The Pit Stop Ministries website for my father, Pastor Keyubba Bowman",
+  "working_style": {
+    "pace": "Incremental — one layer at a time, no rushing",
+    "approach": "Understand-first builder. Wants to reason through every line, not copy-paste",
+    "iteration_pattern": "Build, verify, understand, then move forward",
+    "learning_method": "Anki flash cards for retention, reasoning over memorization",
+    "collaboration_preference": "Tell me what you're doing before you do it. Ask me why before telling me what.",
+    "autonomy_boundary": "No pushing code without permission. No generating code I don't understand."
+  },
+  "technical_profile": {
+    "familiarity_level": "Intermediate — strong Desktop Support background, leveling up into full-stack development",
+    "known_tools": [
+      "HTML5",
+      "CSS3",
+      "JavaScript (vanilla ES6+)",
+      "Node.js",
+      "Express",
+      "npm",
+      "nodemon",
+      "dotenv",
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Live Server",
+      "Thunder Client",
+      "Font Awesome",
+      "Google Fonts",
+      "Hashnode GraphQL API",
+      "Figma"
+    ],
+    "learning_tools": [
+      "C#",
+      "ASP.NET Core",
+      "Database design"
+    ],
+    "preferred_interfaces": [
+      "VS Code",
+      "CLI / Terminal",
+      "Thunder Client for API testing"
+    ],
+    "terminology_used": [
+      "wired in",
+      "flash cards",
+      "mental wavelength of capacity",
+      "improvement movement",
+      "footprints (analytics tracking)",
+      "User Inventory (database records)",
+      "Sowing a Seed (donations)"
+    ],
+    "stack_decision": "Node.js + Express chosen deliberately — no frameworks generating code I don't understand. Plain HTML/CSS/JS frontend."
+  },
+  "communication_style": {
+    "tone": "Direct, personal, grounded in purpose",
+    "expressiveness": "High — speaks in metaphors tied to real life (pit stop, race, sowing seeds)",
+    "key_phrases": [
+      "Build with me",
+      "Hold me to understanding it",
+      "Ask me why before telling me what",
+      "I learn by reasoning, not copying",
+      "Make improvement movement",
+      "No more pushing code without my permission",
+      "Every Movement, Every Art"
+    ],
+    "signal_words": [
+      "wired in",
+      "layer by layer",
+      "increments",
+      "mental wavelength",
+      "capacity"
+    ]
+  },
+  "values_and_principles": [
+    "Understanding over speed — I need to know why every line exists",
+    "Incremental growth — build one layer at a time",
+    "No black-box code — if I can't explain it, I shouldn't ship it",
+    "Family and faith drive the work — this is for my father's ministry",
+    "Accountability — hold me to my flash cards and learning commitments",
+    "Ownership — I am the developer, the AI is the collaborator",
+    "Devotion — 'Thank you for staying DVouted' (README motto)"
+  ],
+  "ideas_expressed": [
+    "The Pit Stop Ministries — a community platform for Pastor Keyubba Bowman's ministry",
+    "Racing/Pit Crew aesthetic — 'Life's a Race' theme with checkered flags",
+    "Sow a Seed — donation flow using Zeffy or Tithe.ly",
+    "Join The Ministry — community sign-up with confirmation email via Postmark",
+    "Track 'footprints' — Facebook video link clicks via GTM and GA4",
+    "User Inventory — database of community members for future CRM-like use",
+    "Backend-first approach — prove the routes work before building the frontend"
+  ],
+  "project_context": {
+    "project_name": "The Pit Stop Ministries",
+    "for_whom": "Pastor Keyubba Bowman (father)",
+    "domain": "Ministry / Community / Faith",
+    "aesthetic": "Race/Pit Crew theme — high-impact, professional, inspired by Bill Winston Ministries",
+    "current_stack": {
+      "runtime": "Node.js",
+      "framework": "Express",
+      "frontend": "Plain HTML5/CSS3/JS",
+      "dev_tools": ["nodemon", "dotenv", "Thunder Client"],
+      "planned_integrations": ["Tithe.ly API", "Postmark email", "Google Tag Manager", "GA4", "Zeffy"]
+    },
+    "project_structure": {
+      "planned_folders": ["routes/", "services/", "models/", "middleware/"],
+      "entry_point": "index.js",
+      "status": "Foundation phase — Express not yet created in repo, ready to build"
+    }
+  },
+  "session_log": [
+    {
+      "session_number": 1,
+      "date": "2026-04-06",
+      "new_characteristics": [
+        "Incremental builder — refuses to skip steps",
+        "Reasoning-first learner — uses Anki flash cards",
+        "Family-driven developer — building for his father's ministry",
+        "Metaphor thinker — maps technical concepts to real-world imagery (pit stops, races, seeds)",
+        "Autonomy-conscious — draws clear lines on what AI should and shouldn't do",
+        "Backend-first strategist — wants routes proven before touching frontend",
+        "Stack-pivot awareness — considered ASP.NET Core, chose Node.js + Express for transparency",
+        "Desktop Support professional leveling into full-stack development"
+      ],
+      "notes": "First session. Profile initialized. User corrected course from ASP.NET to Node.js/Express. Repo exists but Express foundation not yet built — carry-over prompt described the target state, not current state. User confirmed: we start from scratch, one step at a time."
+    }
+  ]
+}
